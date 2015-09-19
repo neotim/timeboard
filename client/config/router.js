@@ -20,5 +20,7 @@ Router.route('/timeboard', function () {
 });
 
 Router.route('/', function () {
-  this.render('home');
-});
+    this.render('home');
+  },
+  {name: 'home'}
+);

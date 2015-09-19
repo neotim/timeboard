@@ -6,6 +6,7 @@
 
 meteor-platform
 autopublish
+insecure
 less
 iron:router
 twbs:bootstrap
@@ -13,5 +14,5 @@ fortawesome:fontawesome
 zimme:iron-router-active
 jquery
 okgrow:iron-router-autoscroll
-
-
+msavin:mongol
+dhtmlx:gantt
