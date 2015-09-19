@@ -1,22 +1,24 @@
 Router.configure({
-    layoutTemplate: 'mainLayout',
-    notFoundTemplate: 'notFound'
-
+  layoutTemplate: 'mainLayout',
+  notFoundTemplate: 'notFound'
 });
 
 //
 // Example pages routes
 //
 
-Router.route('/pageOne', function () {
-    this.render('pageOne');
+Router.route('/teamboard', function () {
+  this.render('teamBoard');
 });
 
-Router.route('/pageTwo', function () {
-    this.render('pageTwo');
+Router.route('/agileboard', function () {
+  this.render('agileBoard');
+});
+
+Router.route('/timeboard', function () {
+  this.render('timeBoard');
 });
 
 Router.route('/', function () {
-    Router.go('pageOne');
+  this.render('home');
 });
-
