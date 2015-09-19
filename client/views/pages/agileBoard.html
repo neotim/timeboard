@@ -17,10 +17,11 @@
             <ul class="sortable-list connectList agile-list">
               {{#each tasks}}
                 <li class="info-element">
-                  {{title}}
+                  {{text}}
                   <div class="agile-detail">
                     <a href="#" class="pull-right btn btn-xs btn-white">{{status}}</a>
-                    <i class="fa fa-clock-o"></i> {{due}}
+                    <i class="fa fa-clock-o"></i> {{startDate}}
+                    <span class="btn btn-xs btn-primary">{{duration}}</span>
                   </div>
                 </li>
               {{/each}}
