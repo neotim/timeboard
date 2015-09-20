@@ -1,5 +1,15 @@
 <template name="home">
   {{> pageHeading title='Time Board' }}
-  {{> agileBoard}}
-  {{> timeBoard}}
+  
+  <div class="row">
+  	<div class="col-md-3 col-sm-3 col-xs-12">
+  			{{> agileBoard}}
+  	</div>
+  	<div class="col-md-9 col-sm-9 col-xs-12">
+  		 {{> timeBoard}}
+  	</div>
+  </div>
+ 
+
+
 </template>
