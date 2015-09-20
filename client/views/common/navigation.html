@@ -9,29 +9,18 @@
 
       <ul class="nav" id="side-menu">
         <li class="nav-header">
-          <div class="dropdown profile-element">
-            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-              <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">Example user</strong>
-              </span> <span class="text-muted text-xs block">user <b class="caret"></b></span> </span> </a>
-              <ul class="dropdown-menu animated fadeInRight m-t-xs">
-                <li><a href="#">Item</a></li>
-                <li><a href="#">Item</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Item</a></li>
-              </ul>
-            </div>
-            <div class="logo-element">
-              T+
-            </div>
-          </li>
-          <li class="{{isActiveRoute regex='agileBoard'}}">
-            <a href="{{pathFor route='agileboard'}}"><i class="fa fa-dashboard"></i> <span class="nav-label">Agile Board</span> </a>
-          </li>
-          <li class="{{isActiveRoute regex='timeBoard'}}">
-            <a href="{{pathFor route='timeboard'}}"><i class="fa fa-diamond"></i> <span class="nav-label">Time Board</span> </a>
-          </li>
-        </ul>
+          <div class="logo-element">
+            <a href="/">T+</a>
+          </div>
+        </li>
+        <li class="{{isActiveRoute regex='agileBoard'}}">
+          <a href="{{pathFor route='agileboard'}}"><i class="fa fa-dashboard"></i> <span class="nav-label">Agile Board</span> </a>
+        </li>
+        <li class="{{isActiveRoute regex='timeBoard'}}">
+          <a href="{{pathFor route='timeboard'}}"><i class="fa fa-diamond"></i> <span class="nav-label">Time Board</span> </a>
+        </li>
+      </ul>
 
-      </div>
-    </nav>
-  </template>
+    </div>
+  </nav>
+</template>
